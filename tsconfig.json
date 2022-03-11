@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": false,
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "dist/",
+    "baseUrl": "src/",
+    "listFiles": false,
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
